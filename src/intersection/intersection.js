@@ -10,10 +10,12 @@ function intersection (array1, array2) {
     // Write code here
 }
 
-const input1 = [1, 2, 3, 4, 5];
-const input2 = [2, 1, 2, 7, 8];
+module.exports = intersection
 
-console.log({
-    expected: [1, 2],
-    actual: intersection(input1, input2)
-})
+// const input1 = [1, 2, 3, 4, 5];
+// const input2 = [2, 1, 2, 7, 8];
+
+// console.log({
+//     expected: [1, 2],
+//     actual: intersection(input1, input2)
+// })

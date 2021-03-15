@@ -24,22 +24,7 @@ const input = [5, 5, 1, 25, 5, 10, 1, 10, 25];
 const input2 = [1, 10, 25, 10, 1];
 
 function coinCounter (coins) {
-    // With For loop
-    // const result = {}
-    // for (let i = 0, len = change.length; i < len; i++) {
-    //     const coin = change[i];
-
-    //     result[coin] = result[coin] + 1 || 1;
-    // }
-
-    // return result;
-
-    // With reduce
-    return change.reduce((result, currentvalue) => {
-        result[currentvalue] = result[currentvalue] + 1 || 1;
-        return result;
-    }, {});
+    // Code here
 }
 
-changeCalculator(input);
-// changeCalculator(input2);
+module.exports = coinCounter

@@ -24,10 +24,12 @@ function twoSum (nums, target) {
     // Code here
 }
 
-const nums = [2,7,11,15];
-const target = 9;
+module.exports = twoSum;
 
-console.log({
-    expected: [0, 1],
-    solution: twoSum(nums, target)
-});
+// const nums = [2,7,11,15];
+// const target = 9;
+
+// console.log({
+//     expected: [0, 1],
+//     solution: twoSum(nums, target)
+// });

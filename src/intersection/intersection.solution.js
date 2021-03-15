@@ -42,13 +42,3 @@ function mapIntersection (array1, array2) {
     
     return result;
 }
-
-const input1 = [1, 2, 3, 4, 5];
-const input2 = [2, 1, 2, 7, 8];
-
-console.log({
-    bruteForceExpected: [1, 2, 2],
-    bruteForceOutput: bruteForceIntersection(input1, input2),
-    mapExpected: [2, 1],
-    mapOutput: mapIntersection(input1, input2)
-})
