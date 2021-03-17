@@ -2,8 +2,10 @@
 
 1. Make sure to have node installed.  
     Check by running in terminal:  
-    `node -v`
-    If a version number is not displayed, consult the internet to install node or contact Hayes Capers.  
+    ```
+    node -v
+    ```  
+    **Note:** If a version number is not displayed, consult the internet to install node or contact Hayes Capers.  
 
 2. Install npm packages.  
     While in the project root folder run `npm install` in the terminal  
