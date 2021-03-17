@@ -25,9 +25,9 @@ describe('removeDuplicates', () => {
 	test('should remove duplicates from an array', () => {
 		for (i = 0; i < NUMBER_OF_TESTS; i++) {
 			const len = randomNumber(MIN_ARRAY_LENGTH, MAX_ARRAY_LENGTH);
-			const test = randomNumberArray(len, MIN_VALUE, MAX_VALUE);
-			const solution = removeDuplicatesSolution(test).sort();
-			const algorithmResult = removeDuplicates(test).sort();
+			const input = randomNumberArray(len, MIN_VALUE, MAX_VALUE);
+			const solution = removeDuplicatesSolution(input).sort();
+			const algorithmResult = removeDuplicates(input).sort();
 	
 			expect(algorithmResult).toEqual(solution);
 		}
