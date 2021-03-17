@@ -42,3 +42,5 @@ function mapIntersection (array1, array2) {
     
     return result;
 }
+
+module.exports = mapIntersection;
